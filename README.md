@@ -61,7 +61,7 @@ Some puzzles are solved by thinking less, not more.
 
 ## ▶️ How to Run
 
-1. Compile all `.java` files
+1. Compile `.java` file
 2. Run `Main.java`
 3. Follow on-screen instructions
 
