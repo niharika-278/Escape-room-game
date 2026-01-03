@@ -374,7 +374,7 @@ class Room2 extends Room{
                 System.out.println("3. Go back.");
                 int ch2 = Game.sc.nextInt();
                 Game.sc.nextLine();
-                if (ch2 == 1 ) {
+                if (ch2 == 2 || ch2 == 1 ) {
                     if(Game.inventory.items.isEmpty()){
                         System.out.println();
                         System.out.println("The room goes silent. The door opens.");
