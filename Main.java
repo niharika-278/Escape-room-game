@@ -380,6 +380,7 @@ class Room2 extends Room{
                         System.out.println("The room goes silent. The door opens.");
                         System.out.println("You have successfully escaped!");
                         Game.running = false;
+                        System.exit(0);
                     } else {
                         System.out.println();
                         System.out.println("Something is still weighing you down.");
