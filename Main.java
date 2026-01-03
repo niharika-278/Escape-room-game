@@ -495,7 +495,7 @@ class Room2 extends Room{
                 System.out.println();
                 System.out.println("The moment you touch the glass, a low hum fills the room and the lights begin to flicker rapidly.");
                 try {
-                    Thread.sleep(10000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                 }
                 System.out.println("As soon as you pull your hand away, the hum fades and the lights return to normal.");
